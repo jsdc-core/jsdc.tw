@@ -103,11 +103,19 @@ a {
 }
 
 .section-cover-logo {
-  margin: 48px auto;
-  width: 990px;
-  height: 350px;
-  background: url(./images/activity.jpg?tmp=20140617);
+  margin: 25px auto;
+  width: 680px;
+  height: 250px;
+  border-top: 1px solid #ddd;
 }
+
+.section-cover-logo > img {
+  display: block;
+  float: left;
+  width: 75%;
+}
+
+
 
 .section-cover-title {
   text-align: center;
