@@ -103,23 +103,28 @@ a {
 }
 
 .section-cover-logo {
-  margin: 25px auto;
+  position: relative;
+  margin: 0px auto;
   width: 680px;
-  height: 250px;
+  height: 190px;
   border-top: 1px solid #ddd;
+
+  padding: 25px 0;
+  text-align: left;
 }
 
-.section-cover-logo > img {
-  display: block;
-  float: left;
-}
+
 
 .section-cover-logo > img.left {
   width: 500px;
   height: 190px;
 }
 
-
+.section-cover-logo > img.right {
+  position: absolute;
+  top: 45%;
+  right: 30px;
+}
 
 .section-cover-title {
   text-align: center;
