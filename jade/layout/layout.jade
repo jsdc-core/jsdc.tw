@@ -10,19 +10,3 @@ html(lang="zh-TW")
     .wrapper
       include topbar
       block main
-      include footer
-    script(src="./element.js")
-    script.
-      (function (window) {
-        'use strict';
-        var toggle = document.querySelector('.topbar-menu-toggle-btn');
-        var menu = document.querySelector('.topbar-nav');
-
-        toggle.addEventListener('click', function () {
-          if (menu.classList.contains('open')) {
-            menu.classList.remove('open');
-          } else {
-            menu.classList.add('open');
-          }
-        });
-      })(this);

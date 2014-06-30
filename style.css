@@ -314,15 +314,6 @@ a {
     transition: all .4s;
   }
 
-  .topbar-nav.open {
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    opacity: 1;
-    pointer-events: inherit;
-  }
-
   .topbar-menu-item {
     display: block;
     margin: 12px 0;
