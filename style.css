@@ -113,14 +113,12 @@ a {
   text-align: left;
 }
 
-
-
-.section-cover-logo > img.left {
+.section-cover-logo img.left {
   width: 500px;
   height: 190px;
 }
 
-.section-cover-logo > img.right {
+.section-cover-logo img.right {
   position: absolute;
   top: 45%;
   right: 30px;
