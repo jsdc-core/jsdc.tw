@@ -1,19 +1,27 @@
 {
-  "name": "jsdc2014-2",
+  "name": "jsdc-tw-official",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "jade jade/*.jade -o ./",
-    "start": "http-server .",
-    "watch": "jade jade/*.jade -o ./ -w"
+    "install": "node_modules/.bin/jade jade/*.jade -o ./",
+    "start": "node_modules/.bin/http-server .",
+    "watch": "node_modules/.bin/jade jade/*.jade -o ./ -w"
   },
-  "author": "Po-Ying Chen <poying.me@gmail.com> (陳柏穎)",
+  "author": {
+    "name": "JSDC Taiwan",
+    "email": "hq@jsdc.tw",
+    "url": "http://jsdc.tw"
+  },
+  "contributors": [
+    {
+      "name": "Po-Ying Chen (陳柏穎)",
+      "email": "poying.me@gmail.com"
+    }
+  ],
   "license": "MIT",
-  "dependencies": {
-    "http-server": "~0.6.1"
-  },
   "devDependencies": {
+    "http-server": "^0.10.0",
     "jade": "^1.3.1"
   }
 }
