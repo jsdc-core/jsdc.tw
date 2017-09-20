@@ -55,7 +55,7 @@ a {
   margin: 0;
   width: 170px;
   height: 86px;
-  background: url(./images/jsdc-logo.png/?tmp=1505925253185) center no-repeat;
+  background: url(./images/jsdc-logo.png?tmp=1505925253185) center no-repeat;
   text-indent: 200%;
   overflow: hidden;
   white-space: nowrap;
