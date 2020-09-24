@@ -104,24 +104,26 @@ a {
 
 .section-cover-logo {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin: 0px auto;
-  width: 680px;
+  width: 650px;
   height: 190px;
   border-top: 1px solid #ddd;
 
-  padding: 25px 0;
+  padding: 25px 30px 25px 0;
   text-align: left;
+}
+
+.section-cover-logo a {
+  display: flex;
+  align-items: center;
+  height: 190px;
 }
 
 .section-cover-logo img.left {
   width: 500px;
-  height: 190px;
-}
-
-.section-cover-logo img.right {
-  position: absolute;
-  top: 45%;
-  right: 30px;
 }
 
 .section-cover-title {
