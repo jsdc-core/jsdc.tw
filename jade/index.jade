@@ -3,7 +3,11 @@ extends layout/layout
 block main
   main(role="main").main
     section.section.section-cover
-      //- h2.section-cover-title JSDC 2015 Coming Soon
+      h2.section-cover-title JSDC 2021 Coming Soon
+      .section-cover-logo
+        a(href="https://2021.jsdc.tw/", target="_blank")
+          img.left(src="/images/jsdc2021.jpeg?tmp=#{now}")
+        img.right(src="/images/jsdc-2021.jpeg?tmp=#{now}" style="width:115px;")
       .section-cover-logo
         a(href="https://2020.jsdc.tw/", target="_blank")
           img.left(src="/images/jsdc2020.png?tmp=#{now}")
